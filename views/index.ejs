@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+
+    <div class="w-full min-h-screen bg-gray-800 text-white p-15">
+
+        <div class="mb-10">
+        <a href="/read" class="bg-yellow-700 px-5 py-2 rounded">View All Users</a>
+
+        </div>
+
+        <form action="/create" method="post" class="flex flex-wrap gap-3">
+            <input type="text" class="border rounded-md border-gray-600 px-6 py-3" placeholder="name" name="name">
+            <input type="text" class="border rounded-md border-gray-600 px-6 py-3" placeholder="email" name="email">
+            <input type="text" class="border rounded-md border-gray-600 px-6 py-3" placeholder="image url" name="image">
+            <input type="submit" value="Add User" class="bg-green-500 py-3 px-4 rounded-md">
+        </form>
+
+    </div>
+    
+</body>
+</html>
