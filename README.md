@@ -25,4 +25,5 @@ A simple backend project using MongoDB, Express, and Node.js to perform basic CR
 - Express.js
 - MongoDB (Community Edition)
 - Mongoose
-- Postman (for API testing)
+- EJS
+
